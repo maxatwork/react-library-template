@@ -15,13 +15,26 @@ Clone using `degit` to new directory:
 
 ```bash
 npx degit https://github.com/maxatwork/react-library-template my-react-lib
+cd my-react-lib
+```
+
+Initialize Git repository:
+
+```bash
+git init
 ```
 
 Install dependencies:
 
 ```bash
-cd my-react-lib
 npm install
+```
+
+Create initial commit:
+
+```bash
+git add .
+git commit -m "Initial commit"
 ```
 
 Build library:
